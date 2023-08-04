@@ -1,0 +1,23 @@
+<div class="container mt-5 bg-secondary-subtle">
+  <form class="mt-5 bg-secondary-subtle p-3">
+    <h1 class="text-center">Accedi</h1>
+    <input
+      type="email"
+      class="form-control mb-3"
+      placeholder="Email"
+      name="email"
+      [(ngModel)]="formData.email"
+    />
+    <input
+      type="password"
+      class="form-control mb-3"
+      placeholder="Password"
+      name="password"
+      [(ngModel)]="formData.password"
+    />
+    <div class="d-flex justify-content-between">
+      <button (click)="login()" class="btn btn-success">Accedi</button>
+      <a class="btn btn-secondary" routerLink="/auth">Indietro</a>
+    </div>
+  </form>
+</div>

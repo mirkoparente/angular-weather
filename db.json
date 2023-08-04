@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "nofebavo@mailinator.com",
+      "password": "$2a$10$IocP6WJbYpkxNwQFZvgn6.UGUmJBpSU84RIEnCJr2u1aHG9qdhCKW",
+      "nome": "Nobis libero volupta",
+      "cognome": "Culpa qui sed aut fu",
+      "id": 1
+    },
+    {
+      "email": "vitadigof@mailinator.com",
+      "password": "$2a$10$ONbaBbBk5vYkrH/PRpIOTu8LUcYNTQ42T9K.hk19knCjFgBXcX7dy",
+      "nome": "Atque sit accusamus ",
+      "cognome": "Pariatur Esse reru",
+      "id": 2
+    }
+  ]
+}

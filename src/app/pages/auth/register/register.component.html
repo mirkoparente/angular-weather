@@ -1,0 +1,37 @@
+<div class="container">
+  <form class="mt-5 bg-secondary-subtle p-3">
+    <h1 class="text-center">Registrati</h1>
+    <input
+      type="text"
+      class="form-control mb-3"
+      placeholder="Nome"
+      name="nome"
+      [(ngModel)]="formData.nome"
+    />
+    <input
+      type="text"
+      class="form-control mb-3"
+      placeholder="Cognome"
+      name="cognome"
+      [(ngModel)]="formData.cognome"
+    />
+    <input
+      type="email"
+      class="form-control mb-3"
+      placeholder="Email"
+      name="email"
+      [(ngModel)]="formData.email"
+    />
+    <input
+      type="password"
+      class="form-control mb-3"
+      placeholder="Password"
+      name="password"
+      [(ngModel)]="formData.password"
+    />
+    <div class="d-flex justify-content-between">
+      <button (click)="register()" class="btn btn-success">Registrati</button>
+      <a class="btn btn-secondary" routerLink="/auth">Indietro</a>
+    </div>
+  </form>
+</div>
